@@ -1,35 +1,52 @@
+ /* Plotting Blocks - tn2690 */
 /*CSS reset settings here*/
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 10px; /* 0px 0px*/
+    padding: 10px;
    }
+   /* gray */
    #wrapper{
-    width: 950px;
+    width: 1050px; /*950px 0px*/
     background-color: silver;
     margin: 0px auto;
    }
+   /* green */
    #header{
-    min-height: 150px;
+    min-height: 150px; /*150px*/
     background-color: green;
    }
+   /* blue */
    #navigation{
-    min-height: 300px;
+    min-height: 300px; /*300px 200px*/
     width: 200px;
     background-color: blue;
+
+    display: inline-block;
    }
+   /* red */
    #main_content{
-    min-height: 400px;
-    width: 700px;
+    min-height: 400px; /*400px 700px*/
+    width: 750px;
     background-color: red;
+
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
    }
+   /* yellow */
    .subcontents{
-    min-height: 200px;
+    min-height: 200px; /*200px 210px*/
     width: 210px;
     background-color: yellow;
+
+    display: inline-block;
+    margin: 5px;
    }
+   /* purple */
    #advertisement{
-    min-height: 120px;
-    width: 660px;
+    min-height: 120px; /*120px 660px*/
+    width: 700px;
     background-color: purple;
+
+    margin-top: 15px;
    }
-   
